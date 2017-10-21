@@ -1,0 +1,9 @@
+version: '2'
+services:
+  aaapt-mmmmirror:
+    build: .
+    restart: always
+    ports:
+      - "127.0.0.1:8005:80"
+    volumes:
+      - "/opt/aaapt-mmmirror:/var/spool/apt-mirror"
