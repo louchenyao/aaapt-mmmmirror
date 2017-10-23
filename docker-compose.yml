@@ -6,4 +6,4 @@ services:
     ports:
       - "127.0.0.1:8005:80"
     volumes:
-      - "/opt/aaapt-mmmirror:/var/spool/apt-mirror"
+      - "/opt/aaapt-mmmmirror:/var/spool/apt-mirror"
